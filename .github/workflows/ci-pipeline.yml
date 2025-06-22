@@ -17,8 +17,5 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Dummy install step
-        run: echo "No package.json found — skipping npm install"
-
-      - name: Dummy test step
-        run: echo "Tests passed successfully!"
+      - name: Run Test
+        run: node test.js
