@@ -1,12 +1,11 @@
-// test.js
 console.log("🔍 Running test...");
 
-const result = 2 + 2;
+const result = 5 + 5;
 
-if (result === 4) {
-  console.log("✅ Test passed: 2 + 2 is 4");
-  process.exit(0); // success
+if (result === 10) {
+  console.log("✅ Test passed: 5 + 5 is 10");
+  process.exit(0); // Success
 } else {
-  console.log("❌ Test failed: 2 + 2 is not 4");
-  process.exit(1); // fail
+  console.log("❌ Test failed: 5 + 5 is not 10");
+  process.exit(1); // Failure
 }
